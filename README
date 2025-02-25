@@ -15,3 +15,5 @@ k3s cluster
 rancher
   i dont like CLI stuff so i use rancher
 
+mosquitto
+  i needed a mqtt broker for meshtastic and to get this working at its most ideallized state required it ve in a docker, on my cluster, with a DDNS, through my custom domain
