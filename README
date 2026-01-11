@@ -1,9 +1,13 @@
 i started this project a while ago trying to learn computers better. 
 
+proxmox:
+  the NAS is no longer a bare metal machine, it is not virtualized under proxmox. the reason for this was the new LTO library. it required direct hardware passthrough where it would have been a hastle to impossible to achieve in the existing unraid install
+  
 
-NAS
-  running unraid and rancher as well ass services that need lots of ram. 
-  game servers
+LTO library:
+  IBM 3100
+  LTO 6 tape (sas)
+  
 
 k3s cluster
   mqtt
@@ -17,3 +21,5 @@ rancher
 
 mosquitto
   i needed a mqtt broker for meshtastic and to get this working at its most ideallized state required it ve in a docker, on my cluster, with a DDNS, through my custom domain
+
+
